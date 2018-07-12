@@ -12,7 +12,7 @@ nigger = [
 
 btc_message = ('The current price of Bitcoin in USD is $')
 client = discord.Client()
-g = giphypop.Giphy('FvsIzLSKfDRhFwANJVYzMKiEAl8Ss7uL')
+g = giphypop.Giphy('Your giphy api key')
 
 helpdoc = [
     'These are the hot commands for ur memes',
@@ -76,6 +76,6 @@ async def on_ready():
     print('------')
 
 
-client.run('NDY1MDM1ODk1MjEzNjU0MDI3.DiQsQQ.gH0zJBfbmzO920ibpfoWi1R9phE')
+client.run('Your Discord Bot Token')
 
 
